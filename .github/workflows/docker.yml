@@ -3,11 +3,11 @@ name: Secman Docker CI
 on:
   push:
     branches:
-      - main
+      - v1
 
   pull_request:
     branches:
-      - main
+      - v1
 
 env:
   SM_DOCKER_REPO: https://github.com/scmn-dev/docker
