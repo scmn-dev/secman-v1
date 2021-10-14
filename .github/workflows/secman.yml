@@ -64,7 +64,7 @@ jobs:
 
       - name: Build secman (MacOS)
         run: |
-          git clone https://github.com/scmn-dev/secman-v1
+          git clone https://github.com/scmn-dev/secman-v1 secman
           cd secman
           make
           make setup
